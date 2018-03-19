@@ -1,0 +1,93 @@
+.icon {
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+#banner {
+	text-align: centre;
+	font-size: 1.4em;
+	text-indent: 30px;
+} 
+#note {
+	text-align: centre;
+	text-indent: 30px;
+}
+.format
+{
+	padding: 25px;
+}
+.sidebar
+{
+	float: left;
+}
+html
+{
+	background-image: url('../images/bats.gif');
+	padding: 35px;
+	margin: auto;
+}
+header
+{
+	height: 4em;
+	border-bottom: 3px solid black;
+	background: linear-gradient(45deg, white, orange 75%, black);
+	line-height: 35%;
+	padding: 1.4em;
+}
+body
+{
+	font-family: sans-serif, helvetica;
+	max-width: 800px;
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	line-height: 140%;
+	box-shadow: 5px 10px #A9A9A9;
+}
+h1
+{
+	font-size: 1.3em;
+	line-height: 130%;
+} 
+h1::first-letter 
+{
+    font-size: 160%;
+}
+h2
+{
+	font-size: 1.3em;
+}
+h3
+{
+	font-size: 1.2em;
+}
+h4
+{
+	font-size: 1.1em;
+}
+p {	
+	font-size: 1em;
+	padding-right: 1.7em;
+}
+a:link 
+{
+	 color: orange; 
+}
+a:link:hover
+{
+	 color: green; 
+}
+div.a {
+    line-height: 190%;
+	padding-right: .5em;
+	padding-top: -.5em;
+}
+footer
+{
+	height: 2em;
+	border-top: 3px solid black;
+	font-size: .8em;
+	text-align: center;
+	padding: .9em;
+	background: linear-gradient(45deg, black, orange 65%, white);
+}
